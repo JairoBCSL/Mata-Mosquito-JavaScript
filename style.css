@@ -1,0 +1,33 @@
+html{
+  cursor: url(imagens/mata_mosquito.png) 30 30, auto;
+}
+
+body {
+  background-image: url("imagens/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.mosquito1 {
+  width: 60px;
+  height: 60px;
+}
+
+.painel{
+  position: absolute;
+  width: 190px; 
+  padding: 10px; 
+  bottom: 0px; 
+  left: 0px;
+  opacity: 1;
+}
+
+.vidas{
+  float: left;
+}
+
+.cronometro{
+  float: left;
+  font-size: 20px;
+  font-weight: bold;
+}
